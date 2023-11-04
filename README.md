@@ -39,7 +39,7 @@ import CFXStatus from "cfx-status";
     const wantedComponent = await cfxre.getComponentById("component-id")
     const wantedComponentTwo = await cfxre.getComponentByName("component-name")
 
-    console.log(`${wantedComponent.name}: ${wantedComponent.status}`)
-    console.log(`${wantedComponentTwo.name}: ${wantedComponentTwo.status}`)
+    console.log(`${wantedComponent.name}: ${wantedComponent.status}`) // e.g. CnL: operational
+    console.log(`${wantedComponentTwo.name}: ${wantedComponentTwo.status}`) // e.g. Keymaster: major_outage
 })();
 ```
