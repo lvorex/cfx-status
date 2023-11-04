@@ -1,0 +1,25 @@
+{
+  "name": "cfx-status",
+  "version": "1.0.0",
+  "description": "Simple CFX.re Status Package using CFX.re Status API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cfx-api",
+    "cfx.re",
+    "cfx",
+    "fivem",
+    "api",
+    "node",
+    "redm",
+    "fivem-api",
+    "redm-api"
+  ],
+  "author": "Lvorex",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
