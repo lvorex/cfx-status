@@ -1,8 +1,9 @@
 {
   "name": "cfx-status",
-  "version": "1.0.0",
+  "version": "0.0.7-dev",
   "description": "Simple CFX.re Status Package using CFX.re Status API.",
-  "main": "index.js",
+  "main": "./src/index.js",
+  "typings": "./src/typings.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,8 +19,17 @@
     "redm-api"
   ],
   "author": "Lvorex",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvorex/cfx-status.git"
+  },
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "cfx-status": "0.0.9-dev"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }
