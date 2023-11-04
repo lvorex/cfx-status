@@ -1,5 +1,8 @@
 # Simple CFX API Package
 *This package is a cfx status package which uses CFX.re API.*
+<br>
+
+*Feel free to contribute project.*
 
 - **Install**
 ```bash
